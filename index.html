@@ -1,8 +1,165 @@
-<html>
-  <head>
-    <title>정보과학회 SIGOSS 홈페이지</title>
-  </head>
-  <body bgcolor=white>
-    <p>This is the home page for KIISE SIGOSS.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KIISE SIGOSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body id="sigoss" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<style>
+.jumbotron {
+    background-color: #73AD21;
+    color: #ffffff;
+    padding: 60px 50px;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #73AD21;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+</style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">KIISE SIGOSS</a>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#news">새소식</a></li>
+        <li><a href="#intro">연구회 소개</a></li>
+        <li><a href="#event">행사</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+     </div>
+  </div>
+</nav>
+
+<div class="jumbotron ">
+    <h2>한국정보과학회</h2>
+    <h1>오픈소스 소프트웨어 연구회</h1> 
+    <p>SIGOSS는 한국정보과학회 산하 연구회로서 오픈소스 소프트웨어 기술과 사회적 이슈에 대한 연구를 목적으로 설립되었습니다.</p>
+</div>
+
+<div id="news" class="container-fluid">
+  <h2 class="text-center">새소식</h2>
+  <h4>2016 겨울 오픈소스 워크샵</h4> 
+  <p> </p>
+  <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#workshop_modal">자세히 보기>></button>
+</div>
+
+<div id="workshop_modal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-sm">
+    
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">2016 겨울 오픈소스 워크샵</h4>
+      </div>
+      <div class="modal-body">
+        <p>자세한 내용은 추후 안내 예정</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="intro" class="container-fluid bg-grey">
+  <h2 class="text-center">연구회 소개</h2>
+  <div class="row">
+  <div class="col-sm-6">
+  <h3>본 연구회는</h3> 
+  <ul class="list-group"> 
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">오픈소스 소프트웨어 기술에 관한 연구</h4>
+        <p class="list-group-item-text">IT 기술, 제품, 서비스 전 분야에서 오픈소스 소프트웨어 기술의 개발과 활용, 평가</p>
+    </li>
+
+     <li class="list-group-item">
+        <h4 class="list-group-item-heading">오픈소스 기술의 사회적 이슈에 관한 연구</h4>
+        <p class="list-group-item-text">오픈소스 거버넌스와 저작권, 다른 지적재산권과의 관계</p>
+        <p class="list-group-item-text">오픈소스 기술 개발 및 활용의 사회, 경제적 효과</p>
+        <p class="list-group-item-text">오픈소스 개발자와 커뮤니티, 문화와 교육</p>
+     </li>
+  </ul>
+
+  </div>
+
+  <div class="col-sm-6">
+  <h3>운영위원</h3>
+  
+  <table class="table table-striped">
+    <tbody>
+      <tr>
+        <td>위원장</td>
+        <td><strong>이민석</strong></td>
+        <td>국민대학교</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>허준영</td>
+        <td>한성대학교</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+</div>
+
+
+<div id="event" class="container-fluid bg-grey">
+  <h2 class="text-center">행사</h2>
+  <h4><strong>2016 겨울 OSS 워크샵</strong> </h4> 
+
+</div>
+
+<div id="contact" class="container-fluid">
+  <h2 class="text-center">연락처</h2>
+  <p>문의 사항은 </p>
+  <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:kiise.sigos@gmail.com">kiise.sigos@gmail.com</a></p>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>한국정보과학회 오픈소스소프트웨어 연구회</p>
+</footer>
+
+</body>
 </html>
