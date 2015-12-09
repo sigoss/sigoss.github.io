@@ -61,7 +61,7 @@
      </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#news">새소식</a></li>
+        <li><a href="#news">새 소식<span class="badge">2</span></a></li>
         <li><a href="#intro">연구회 소개</a></li>
         <li><a href="#event">행사</a></li>
         <li><a href="#contact">연락처</a></li>
@@ -77,10 +77,32 @@
 </div>
 
 <div id="news" class="container-fluid">
-  <h2 class="text-center">새소식</h2>
-  <h4>2016 겨울 오픈소스 워크샵</h4> 
-  <p> </p>
-  <button class="btn btn-default btn-lg" data-toggle="modal" data-target="#workshop_modal">자세히 보기>></button>
+  <h2 class="text-center">새 소식</h2>
+  <br/>
+  <ul class="list-group"> 
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        2016 Open Source Software, Tutorial and Practice</h4>
+        <p class="list-group-item-text">
+        2016년 1월 28일~29일, 2월 15일~16일 <br/>
+        오픈소스 소프트웨어 개발 교육으로 학생과 교수용 강좌로 나누어 진행
+        </p>
+        <button class="btn btn-default btn-sm" onclick="window.document.location='event160215.html';">자세히 보기>></button>
+    </li>
+    
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">
+        2015 정보과학회 동계학술발표회 OSS 튜토리얼</h4>
+        <p class="list-group-item-text">
+        2015년 12월 17일(목) 13:00~17:00 <br/>
+        OpenSourceSoftware : ArchitectureandGovernance - 손영수 교수(NHN 넥스트)
+        <br/>
+        오픈소스 라이선스 이해 및 관리방안 - 김병선 상무(블랙덕코리아)
+        </p>
+        <button class="btn btn-default btn-sm" onclick="window.document.location='http://c.kiise.or.kr/conference/wc/42/';">자세히 보기>></button>
+    </li>
+  </ul>
+  
 </div>
 
 <div id="workshop_modal" class="modal fade" role="dialog">
@@ -104,7 +126,9 @@
 
 <div id="intro" class="container-fluid bg-grey">
   <h2 class="text-center">연구회 소개</h2>
+  <br/>
   <div class="row">
+  
   <div class="col-sm-6">
   <h3>본 연구회는</h3> 
   <ul class="list-group"> 
@@ -120,12 +144,10 @@
         <p class="list-group-item-text">오픈소스 개발자와 커뮤니티, 문화와 교육</p>
      </li>
   </ul>
-
   </div>
 
   <div class="col-sm-6">
-  <h3>운영위원</h3>
-  
+  <h3><span class="glyphicon glyphicon-user"></span> 운영위원</h3>
   <table class="table table-striped">
     <tbody>
       <tr>
@@ -141,24 +163,72 @@
     </tbody>
   </table>
   </div>
+  
+  <div class="col-sm-6">
+  <h3><span class="glyphicon glyphicon-list-alt"></span> 연혁</h3>
+  <table class="table table-condensed">
+    <tbody>
+      <tr>
+        <td>2015.4.30</td>
+        <td>초대 운영위원장 이민석 교수(국민대)</td>
+      </tr>
+      <tr>
+        <td>2015.4.30</td>
+        <td><strong>오픈소스 소프트웨어 연구회 설립</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
   </div>
 </div>
 
 
-<div id="event" class="container-fluid bg-grey">
+<div id="event" class="container-fluid">
   <h2 class="text-center">행사</h2>
-  <h4><strong>2016 겨울 OSS 워크샵</strong> </h4> 
-
+  <br/>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>행사명</th>
+        <th>기간</th>
+        <th>종류</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr onclick="window.document.location='event160215.html';">
+        <td>Open Source Software, Tutorial and Practice <span class="label label-default">교수</span></td>
+        <td>2016.2.15~16</td>
+        <td><span class="glyphicon glyphicon-education"></span> 교육</td>
+      </tr>
+      <tr onclick="window.document.location='event160215.html';">
+        <td>Open Source Software, Tutorial and Practice <span class="label label-default">학생</span></td>
+        <td>2016.1.28~29</td>
+        <td><span class="glyphicon glyphicon-education"></span> 교육</td>
+      </tr>      
+    </tbody>
+  </table>
 </div>
 
-<div id="contact" class="container-fluid">
+<div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">연락처</h2>
   <p>문의 사항은 </p>
   <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:kiise.sigoss@gmail.com">kiise.sigoss@gmail.com</a></p>
 </div>
 
+<style>
+footer .glyphicon {
+    font-size: 20px;
+    color: #73AD21;
+    margin-bottom: 20px;
+}
+</style>
 <footer class="container-fluid text-center">
-  <p>한국정보과학회 오픈소스소프트웨어 연구회</p>
+  <a href="#" title="위로">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  
+  <p>한국정보과학회 <a href="https://sigoss.github.io">오픈소스소프트웨어 연구회</a></p>
 </footer>
 
 </body>
