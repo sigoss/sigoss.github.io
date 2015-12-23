@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>KIISE SIGOSS</title>
+  <title>OSS Tutorial and Practice</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -22,20 +22,232 @@
 .container-fluid {
     padding: 60px 50px;
 }
+.navbar {
+    background-color: orange;
+    border: 0;
+}
 </style>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">OSS Tutorial and Practice</a>
+     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#event1">1. 개발 프랙티스 튜토리얼</a></li>
+        <li><a href="#event2">2. 프로젝트 운영 및 관리 워크샵</a></li>
+        <li><a href="#lecturer">강사 소개</a></li>
+        <li><a href="#registration">등록</a></li>
+        <li><a href="#location">장소</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+     </div>
+  </div>
+</nav>
 
 <div class="jumbotron ">
     <h1>2016 Open Source Software, Tutorial and Practice</h1>
-    <p>자세한 내용은 최대한 빨리 공지하겠습니다.</p>
-    <p>장소 예정: 강남 토즈 2호점</p>
+    <p>1. 개발 프랙티스 튜토리얼 - 2016년 1월 28일(목) ~ 1월 29일(금)</p>
+    <p>2. 프로젝트 운영 및 관리 워크샵 - 2016년 2월 15일(월) ~ 2월 16일(화)</p>
+    <p>장소: 강남 토즈 2호점</p>
 </div>
 
-<div id="event" class="container-fluid">
-  <h2 class="text-center">내용</h2>
+<div id="event1" class="container-fluid">
+    <h2 class="text-center">1. 오픈소스 소프트웨어 개발 프랙티스 튜토리얼</h2>
+    <br/>
+
+    <ul class="list-group"> 
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">강의 개요 :</h4>
+        <p class="list-group-item-text">오픈소스 소프트웨어를 개발하거나 활용하는 연구자, 학생, 개발자들을 대상으로<br/>
+        오픈소스 소프트웨어의 개념과 필요성, 오픈소스 라이선스에 관한 기초와 함께<br/>        
+        오픈소스 커뮤니티에서 사용하는 전주기적 개발 도구와 개발 전 과정을<br/>
+        2일간의 해커톤 스타일 프로젝트로 경험하면서 배우는 집중 교육 튜토리얼</p>
+    </li>
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">강의 목표 :</h4>
+        <p class="list-group-item-text">오픈소스 소프트웨어와 커뮤니티에 대한 이해<br/>
+        소프트웨어 개발에 필요한 전주기적 도구와 개발 방법론의 경험적 습득</p>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">일시 :</h4>
+        <p class="list-group-item-text">2016년 1월 28일(목) ~ 1월 29일(금) (09:00 ~ 18:00)</p>
+    </li> 
+    <!--<li class="list-group-item">
+        <h4 class="list-group-item-heading">장소 :</h4> 
+        <p class="list-group-item-text">강남 토즈 2 호점 (신논현역 6번 출구)<br/>
+        http://www.toz.co.kr/branch/main/index.htm?id=11<br/>
+        (주차공간 협소, 주차지원 안됨)</p>
+    </li> -->
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">교육 내용 :</h4>
+        <p class="list-group-item-text">오픈소스 SW 개론 (1시간) (강사: 이민석)<br/>
+        오픈소스 SW 개발 프랙티스 튜토리얼 / 실습 (15시간) (강사: 신정호)</p>
+		<ul>
+        <li>오픈소스 소프트웨어 개발 라이프사이클 도구 소개</li>
+		<li>각 도구의 설치 및 사용법
+			<ul>
+            <li>버전관리(git), 유닛테스트 (Junit), 코드리뷰 (Stash),</li>
+			<li>품질 관리 (SonarQube), 	이슈트래킹 (Github/JIRA)</li>
+			<li>지속적 통합 및 배포 (Jenkins)</li>
+            </ul>
+        </li>
+		<li>Small Hackathon 방식의 프로젝트 개발을 통한 Practice 실습
+            <ul>
+			<li>빠른 Iteration의 Agile 방식 개발</li>
+            </ul>
+        </li>
+        </ul>
+    </li>
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">주 참가대상 :</h4>
+        <p class="list-group-item-text"> 코딩 능력이 있으나, 오픈소스 개발 프랙티스에 익숙하지 않은 개발자<br/>
+		(주로, 학부/대학원생, 초급 개발자, 연구원 등)</p>
+    </li>
+
+    <!--<li class="list-group-item">
+        <h4 class="list-group-item-heading">참가비 :</h4>
+        <p class="list-group-item-text">	학생 (과제/사업비에서 참가: 35만원, 일반 참가: 30만원)<br/>
+        교수/연구원 (과제/사업비에서 참가: 50만원, 일반 참가: 40만원)<br/>
+        일반 (대기업 : 50만원, 중소기업/연구소 : 40만원)</p>
+    </li>-->
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">참석자 제공 내역 :</h4>
+        <p class="list-group-item-text">
+        강의 자료(인쇄본)<br/>
+        오픈소스 온라인 교육 수강권 (<a href="http://olc.oss.kr">olc.oss.kr</a>)<br/>
+        양일 점심 식사 및 간식</p>
+    </li>
+	
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">참가 준비물 :</h4>
+        <p class="list-group-item-text"> 각자 실습용 노트북 (운영체제 불문)</p>
+    </li>
+    </ul>
 </div>
+
+
+<div id="event2" class="container-fluid bg-grey">
+    <h2 class="text-center">2. 오픈소스 소프트웨어 프로젝트 운영 및 관리 워크샵</h2>
+    <br/>
+
+    <ul class="list-group"> 
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">강의 개요 :</h4>
+        <p class="list-group-item-text">연구, 개발 프로젝트를 오픈소스 방식으로 운영하고자 하는 교수, 연구책임자,<br/>
+        프로젝트 관리자 등을 대상으로, 오픈소스 소프트웨어, 커뮤니티 개요,<br/>
+        오픈소스 라이선스 및 특허, 오픈소스 프로젝트의 확산 및 운영 이슈를 배우고,<br/>
+        오픈 소스 소프트웨어 기반 교육을 위한 기본 역량을 함양하는 교육.<br/>
+        오픈소스 철학, 라이선스, 거버넌스, 프로젝트 운영 및 확산에 관한 강의와<br/>
+        비교적 간단한 예제 프로젝트를 활용한 개발 프랙티스 경험을 제공.</p>
+    </li>
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">강의 목표 :</h4>
+        <p class="list-group-item-text">오픈소스 소프트웨어와 커뮤니티, 라이선스, 거버넌스에 대한 이해<br/>
+        과제, 연구의 오픈소스 방식 운영을 위한 프랙티스의 경험적 습득</p>
+    </li>
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">일시 :</h4>
+        <p class="list-group-item-text">2016년 2월 15일(월) ~ 2월 16일(화) (10:00 ~ 18:00)</p>
+    </li> 
+    <!--<li class="list-group-item">
+        <h4 class="list-group-item-heading">장소 :</h4> 
+        <p class="list-group-item-text">강남 토즈 2 호점 (신논현역 6번 출구)<br/>
+        http://www.toz.co.kr/branch/main/index.htm?id=11<br/>
+        (주차공간 협소, 주차지원 안됨)</p>
+    </li> -->
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">교육 내용 :</h4>
+        <p class="list-group-item-text">오픈소스 SW 개론 (1 시간) (강사: 이민석)<br/>
+        오픈소스 SW 라이선스와 특허 (2 시간) (강사: 이철남 교수)<br/>
+        오픈소스 소프트웨어 프로젝트 운영 경험 (2 시간) (강사: 정성인 센터장)<br/>
+        다양한 오픈소스 소프트웨어의 적용 사례 Best Practice (2시간) (강사: 정명훈 이사)<br/>
+        개발 프랙티스 워크샵 (7시간) - 둘째날 종일 (강사: 김민태 개발자)</p>
+		<ul>
+        <li>오픈소스 소프트웨어 개발 라이프사이클 도구 소개</li>
+		<li>각 도구의 설치 및 사용법 및 유용성
+			<ul>
+            <li>버전관리(git), 유닛테스트 (Junit), 코드리뷰 (Stash),</li>
+			<li>품질 관리 (SonarQube), 	이슈트래킹 (Github/JIRA)</li>
+			<li>지속적 통합 및 배포 (Jenkins)</li>
+            </ul>
+        </li>
+		<li>간단한 예제 프로젝트를 통한 Practice 실습</li>
+        </ul>
+    </li>
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">주 참가대상 :</h4>
+        <p class="list-group-item-text"> 오픈소스 방식으로 프로젝트를 진행할 연구 책임자, 프로젝트 관리자.<br/>
+	     오픈소스 기반 교육을 추구하시는 교수님</p>
+    </li>
+
+    <!--<li class="list-group-item">
+        <h4 class="list-group-item-heading">참가비 :</h4>
+        <p class="list-group-item-text">교수/연구원 (과제/사업비에서 참가: 50만원, 일반 참가: 40만원)<br/>
+	 일반 (대기업 : 50만원, 중소기업/연구소 : 40만원)</p>
+    </li>-->
+
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">참석자 제공 내역 :</h4>
+        <p class="list-group-item-text">
+        강의 자료 (인쇄본과 PPT 형태의 파일로 동시 제공)<br/>
+        양일 점심 식사 및 간식</p>
+    </li>
+	
+    <li class="list-group-item">
+        <h4 class="list-group-item-heading">참가 준비물 :</h4>
+        <p class="list-group-item-text"> 각자 실습용 노트북 (운영체제 불문)</p>
+    </li>
+    </ul>
+</div>
+
+
+<div id="lecturer" class="container-fluid">
+    <h2 class="text-center">강사 소개</h2>
+    <br/>
+    <table class="table">
+    <tbody>
+      <tr><td>김민태 개발자</td><td>(현) (주) 피키캐스트 개발자<br/>
+		(전) 엔씨소프트 메신저 개발팀, KTH 웹플랫폼팀</td></tr>
+
+      <tr><td>신정호 개발자</td><td>(현) 프리랜서 개발자, 애자일 개발 방법론 전문 강사<br/>
+		(전) 다우기술 소프트웨어 연구소 선임연구원</td></tr>
+
+      <tr><td>이민석 교수</td><td>(현) 국민대학교 교수, 정보과학회 오픈소스소프트웨어 연구회 위원장<br/>
+		(전) 동북아시아 공개SW 활성화 포럼 인력양성분과 위원장,<br/>
+		NHN NEXT 학장, 한성대학교 교수, (주) 팜팜테크 CTO</td></tr>
+	
+      <tr><td>이철남 교수</td><td>(현) 충남대학교 법학전문대학교 교수, 국가지식재산위원회 전문위원,<br/>
+		특허청 감사 자문위원, 저작권 위원회 감정 전문 위원<br/>
+		(전) 정보통신정책연구원 연구원, ETRI 지적재산개발실 위촉 연구원</td></tr>
+
+      <tr><td>정명훈 이사</td><td>(현) (주)오픈소스컨설팅 이사<br/>
+		(전) 클라우던트 컨설턴트, 오라클 컨설턴트, 시트릭스 코리아 개발팀장</td></tr>
+
+      <tr><td>정성인 센터장</td><td>(현) ETRI 차세대OS 기초연구센터장,<br/>
+		동북아시아 공개SW 활성화 포럼 기술개발분과장<br/>
+		(전) ETRI 리눅스 연구팀장, 시스템SW연구팀장, SCO 방문연구원</td></tr>
+    </tbody>
+    </table>
+</div>  
 
 <div id="registration" class="container-fluid bg-grey">
   <h2 class="text-center">등록</h2>
+  <br/>
+  <p>[등록 페이지] - 곧 개설될 예정입니다.</p>
   <table class="table">
     <thead>
       <tr>
@@ -47,29 +259,51 @@
     </thead>
     <tbody>
       <tr>
-        <td>학생</td>
+        <td>학생<p class="text-primary small">프랙티스 튜토리얼만 가능</p></td>
+        <td>35만원</td>
         <td>40만원</td>
-        <td>50만원</td>
-        <td>55만원</td>
+        <td>45만원</td>
       </tr>
       <tr>
-        <td>교수</td>
+        <td>교수/일반</td>
         <td>50만원</td>
         <td>60만원</td>
         <td>65만원</td>
       </tr>
       <tr>
         <td colspan="4">
-        * 학생과 교수는 개인 비용으로 참여시 10만원 할인. (단, 참석 당일 결제 수단 확인)<br/>
-        * 중소기업 재직자 10만원 할인. (단, 참석 당일 재직 증명서 확인)<br/>
-        * 1차 사전 등록 기간은 학생 강좌는 1월 21일, 교수 강좌는 2월 5일까지<br/>
-        * 2차 사전 등록 기간은 행사 시작 전날 까지
+        * 학생과 교수는 개인 비용으로 참여시 학생 5만원, 교수 10만원 할인<br/>
+        * 중소기업/연구소 재직자 10만원 할인<br/>
+        * 할인 대상자는 행사 당일 증빙 자료(결제 카드, 사원증, 재직 증명서 등) 확인 필요<br/>
+        * <mark>1차 사전 등록 기간: 프랙티스 튜토리얼은 1월 21일, 운영 및 관리 워크샵은 2월 5일까지</mark><br/>
+        * 2차 사전 등록 기간은 행사 시작 전날 까지<br/>
+        * 현장 등록은 여석이 있을 때만 접수 가능
         </td>
     <tbody>
   </table>
 </div>
 
-<div id="contact" class="container-fluid">
+<div id="location" class="container-fluid">
+    <h2 class="text-center">장소</h2>
+    <br/>
+    <div class="row">
+  
+    <div class="col-sm-6">
+    <h4>강남 토즈 2 호점 (신논현역 6번 출구)</h4> <br/>
+    <span class="label label-default">주소</span> 서울시 서초구 강남대로 459 (서초동 1303-34 백암빌딩 3층)<br/>
+    <span class="glyphicon glyphicon-phone-alt"></span> 02-591-0116 <br/>
+    <span class="glyphicon glyphicon-home"></span> <a href="http://www.toz.co.kr/branch/main/index.htm?id=11">http://www.toz.co.kr/branch/main/index.htm?id=11</a><br/>
+	(주차공간 협소, 주차지원 안됨)
+    </div>
+
+    <div class="col-sm-6">
+    <table cellpadding="0" cellspacing="0" width="462"> <tr> <td style="border:1px solid #cecece;"><a href="http://map.naver.com/?menu=location&mapMode=0&lat=37.5031277&lng=127.024487&dlevel=12&searchCoord=127.0003336%3B37.4976118&query=7ISc7Jq47IucIOyEnOy0iOq1rCDqsJXrgqjrjIDroZwgNDU5&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0179837%2C0.0129936&tab=1&enc=b64" target="_blank"><img src="http://prt.map.naver.com/mashupmap/print?key=p1450877901930_484638132" width="460" height="340" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td>  <table cellpadding="0" cellspacing="0" width="100%">  <tr>  <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;">   <span style="font-family: tahoma; font-size: 11px; color:#666;">2015.12.23</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="http://map.naver.com/?menu=location&mapMode=0&lat=37.5031277&lng=127.024487&dlevel=12&searchCoord=127.0003336%3B37.4976118&query=7ISc7Jq47IucIOyEnOy0iOq1rCDqsJXrgqjrjIDroZwgNDU5&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0179837%2C0.0129936&tab=1&enc=b64" target="_blank">지도 크게 보기</a>  </td>  <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;">   <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="http://www.nhncorp.com" target="_blank">NAVER Corp.</a></span>  </td>  </tr>  </table> </td> </tr>  </table>
+	</div>
+    
+    </div>
+</div>
+
+<div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">연락처</h2>
   <p>문의 사항은 </p>
   <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:kiise.sigoss@gmail.com">kiise.sigoss@gmail.com</a></p>
