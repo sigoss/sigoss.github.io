@@ -41,9 +41,9 @@ h2.text-center {
 }
 
 .photo-gallery .item {
-  padding-bottom:30px;
-  padding-left:15px;
-  padding-right:15px;
+  padding-bottom:10px;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 @media (min-width:992px) {

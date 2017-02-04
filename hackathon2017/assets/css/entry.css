@@ -25,6 +25,10 @@ img#gitlogo {
   color:#333;
 }
 
+p.enter {
+  margin-top:1%;
+}
+
 @media (max-width:767px) {
   .entry h2 {
     margin-bottom:25px;
