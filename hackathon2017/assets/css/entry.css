@@ -1,7 +1,7 @@
 div.col-lg-3.col-md-3.col-sm-4.univ {
-  /*padding-left:7px;*/
+  padding-left:7px;
   padding-right:7px;
-  margin-left:0px;
+  margin-bottom:10px;
   /*margin-right:-1px;*/
 }
 
@@ -11,7 +11,7 @@ div.col-lg-3.col-md-3.col-sm-4.univ {
 }
 
 div.col-lg-5.col-sm-6.item {
-  height:750px;
+  height:800px;
 }
 
 img#gitlogo {
