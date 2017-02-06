@@ -5,6 +5,15 @@ div.col-lg-3.col-md-3.col-sm-4.univ {
   /*margin-right:-1px;*/
 }
 
+h6 {
+  color:#f2b31c;
+}
+
+img#trophy {
+  margin-bottom:1%;
+  margin-right:2%;
+}
+
 .entry {
   color:#313437;
   background-color:#fff;
