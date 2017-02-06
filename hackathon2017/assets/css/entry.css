@@ -1,6 +1,15 @@
+div.col-lg-3.col-md-3.col-sm-6.univ {
+  padding-left:5px;
+  padding-right:5px;
+}
+
 .entry {
   color:#313437;
   background-color:#fff;
+}
+
+div.col-lg-5.col-sm-6.item {
+  height:750px;
 }
 
 img#gitlogo {
