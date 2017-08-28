@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>소프트웨어 중심대학 오픈소스 해커톤</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="hackathon2017/assets/css/custom-main.css">
+	<link href='https://cdn.rawgit.com/openhiun/hangul/14c0f6faa2941116bb53001d6a7dcd5e82300c3f/nanumbarungothic.css' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">오픈핵 포스터</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="modal-poster" src="oss_hack_poster_0926.jpg">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <style>
+        .jumbotron {
+            background-color: #7092BE;
+            color: #ffffff;
+            padding: 60px 50px;
+            background-color: #7092BE;
+            color: #ffffff;
+            padding: 60px 50px;
+            background-image: url(oss_hack_poster_0926.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            z-index: 0;
+			position: relative;
+			background-position-y: center;
+        }
+        .bg-grey {
+            background-color: #f6f6f6;
+        }
+        .container-fluid {
+            padding: 60px 50px;
+        }
+        .navbar {
+            background-color: #7092BE;
+            border: 0;
+        }
+        .glyphicon {
+            color: #7092BE;
+        }
+    </style>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="navbar-brand" class="navbar-brand" href="#">소프트웨어 중심대학 오픈소스 해커톤</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#event1">오픈소스 해커톤</a>
+                    </li>
+                    <li><a href="#registration">등록</a>
+                    </li>
+                    <li><a href="#location">장소</a>
+                    </li>
+                    <li><a href="#contact">연락처</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="jumbotron header-jumbotron bg-image">
+        <div class="bg-overlay">
+        </div>
+        <div class="content-overlay">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>소프트웨어 중심대학 오픈소스 해커톤</h1>
+                    <p>주최: 소프트웨어 중심대학</p>
+                    <p>참여학교: 20개 중심대, 소프트웨어 마에스트로 과정
+                    </p>
+                    <p>일시: 9월 15일(금) ~ 9월 17일(일)</p>
+                    <p>장소: 서울시립대 강촌 수련원</p>
+                </div>
+                <div class="col-sm-12 center-block">
+					<div class="buttons-center-area">
+						<button data-toggle="modal" data-target="#myModal" class="btn btn-lg view-poster-btn center-block">포스터 보기</button>
+						
+					</div>
+					
+				</div>
+				
+                <!--<div class="col-sm-4">
+						<p>후원/협찬 :</p>
+						<button type="button" class="btn btn-default" onclick="window.document.location='http://www.oss.kr';"><img src="https://www.oss.kr/layouts/oss_sub_new/images/footer_logo.gif" alt="OSS" height="40"></button>-->
+                <!-- <button type="button" class="btn btn-default" onclick="window.document.location='http://kossa.kr';"><img src="https://www.oss.kr/oss/images/etc/kossa_logo.jpg" alt="KOSSA" height="40"></button> -->
+                <!--</div>-->
+            </div>
+            <!-- <img class="img-responsive img-rounded" src="oss_hack_poster.png" alt="Poster"> -->
+        </div>
+    </div>
+    <div id="event1" class="container-fluid">
+        <h2 class="text-center"></h2>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading"> 목적</h4>
+                <p class="list-group-item-text">
+                    학생 개발자들이 단기적으로 오픈소스 개발 프랙티스를 습득하여 오픈 소스 프로젝트를 기획/개발/구현하여 작은 성과를 만들고 프로젝트의 소스를 오픈하는 경험을 가지게 하여, 이후 학교에 돌아가 오픈소스 개발의 주도적인 역할을 하면서 다른 학생들을 리드할 수 있도록 함.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading"> 목표</h4>
+                <p class="list-group-item-text">
+                    각 중심대학에서 파견된 개발자 (대학별 4명)들과 중심대학 또는 외부에서 참가한 디자이너들이 팀을 구성하여 2박 3일 동안 앱, 서비스, 라이브러리 등을 오픈소스로 만드는 행사. 
+                </p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading"> 일정 </h4>
+                <p class="list-group-item-text date-info">
+                    9월 15일 금요일 :
+                </p>
+                <ul>
+                    <li>~10:00 등록</li>
+                    <li>10:00~12:00 Git, Github, Trais 등 오픈소스 프랙티스 특강</li>
+                    <li>12:00~14:00 점심 식사 및 ICE Breaking</li>
+                    <li>14:00~17:00 오픈소스 기술 교육</li>
+                    <li>17:00~18:00 lightning talk(후원사 session) - 1</li>
+					<li>18:00~19:00 저녁 식사 및 Networking</li>
+					<li>19:00~21:00 기획 아이디어 발표(100초) 및 팀 빌딩</li>
+					<li>21:00~      팀 Report 후, 개발 시작</li>
+                </ul>
+                <p class="list-group-item-text date-info">
+                    9월 16일 토요일 :
+                </p>
+
+                <ul>
+                    <li>개발 계속</li>
+					<li>~14:00 팀별 개발</li>
+					<li>14:00~15:00 1차 중간 진행상황 발표(팀별 120초)</li>
+					<li>15:00~15:30 lightning talk(후원사 session) -2</li>
+					<li>15:30~21:00 팀별 개발</li>
+					<li>21:00~22:00 2차 중간 진행상황 발표(팀별 120초)</li>
+					<li>22:00~23:00 FUN 이벤트 실시</li>
+					<li>23:00~ 팀별 개발</li>
+				</ul>
+				<p class="list-group-item-text date-info">
+					9월 17일 일요일 :
+				</p>
+                <ul>
+                    <li>~12:00 팀별 개발 및 결과 발표자료 제출 </li>
+                    <li>13:30~15:30 팀별 최종발표 평가</li>
+                    <li>15:30~16:00 우수작 시상, 사진 찰영, 폐회</li>
+                </ul>
+                <p></p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading"> 참가인원 </h4>
+                <p class="list-group-item-text">
+                    대학 별로 4명의 정예 개발자 출전 (개발자 겸 기획자)
+                    <br> (디자이너도 1명 이상 파견 가능 – 부족한 디자이너는 주관 측에서 조달)
+                    <br> (숙식 제공: 7식 첫날 점저, 둘째날 3식, 셋째날 아점)
+                    <br>
+                </p>
+            </li>
+            <li class="list-group-item">
+                <h4 class="list-group-item-heading"> 시상 (예정) </h4>
+                <p class="list-group-item-text">
+                    1등 - 과학기술정보통신부장관상 장관상
+                    <br> 2등 * 2 팀 - 한국정보과학회장상
+                    <br> 3등 * 3팀 – 소프트웨어중심대학협의회장상, 후원사 특별상
+                    <br>
+                    <!--- 서울시 공공 데이터, 공공 API 사용 팀은 상금 없이, 서울 시장 명의의 상장을 중복/별도 수상<br/> -->
+                    (시상 내역은 참가 대학 수에 따라 변동 가능, 현재 상금 미정)
+                </p>
+			</li>
+			<li class="list-group-item">
+					<h4 class="list-group-item-heading"> 지난 대회 결과</h4>
+					<p class="list-group-item-text">
+						제 1회 소프트웨어중심대학 오픈소스 해커톤 '오픈핵' 결과 <a href="https://sigoss.github.io/hackathon2017/index.html">바로가기</a>
+					</p>
+				</li>
+        </ul>
+    </div>
+    
+			<div id="registration" class="container-fluid bg-grey">
+			    <h2 class="text-center">대학별 등록</h2>
+			    <br/>
+			    <p class="text-center">아래의 '참가자 등록'과 '등록비 결제'를 모두 해주셔야 합니다.</p>
+			
+
+				<div id="button-customized-style" class="buttons-center-area ">
+						<button data-toggle="modal" onclick="window.document.location='http://bit.ly/openhack-2017-2';" class="btn btn-lg view-poster-btn center-block">참가자 등록 바로가기 >> </button>
+						<button data-toggle="modal" onclick="window.document.location='http://www.kiise.or.kr/conference/enterConference/enterConference.do?CC=oss&CS=001&PARENT_ID=012200';" class="btn btn-lg view-poster-btn center-block">등록비 결제 바로가기 >></button>
+				</div>
+			    <p class="text-center">
+			      * 결제 페이지에서 한글이 제대로 표시되지 않을 경우, 인코딩을 한국어로 선택해 주십시오.</p>
+			</div>
+			
+    <div id="location" class="container-fluid">
+        <h2 class="text-center">장소</h2>
+        <br/>
+        <div class="row">
+            <div class="col-sm-6">
+                <h4>서울시립대 강촌 수련원</h4>
+                <br/>
+                <span class="glyphicon glyphicon-home"></span> 강원도 춘천시 남산면 북한강변길 812-39
+                <br/>
+                <span class="glyphicon glyphicon-phone-alt"></span> 033-262-3155
+                <br/>
+                <span class="glyphicon glyphicon-globe"></span> <a href="http://rivervalley.uos.ac.kr/">http://rivervalley.uos.ac.kr/</a>
+                <br/>
+            </div>
+            <!--지도 <div class="col-sm-6">
+					<table cellpadding="0" cellspacing="0" width="272"> <tr> <td style="border:1px solid #cecece;"><a href="http://map.naver.com/?menu=location&mapMode=0&lat=37.5037278&lng=127.0246529&dlevel=12&searchCoord=127.0003336%3B37.4976118&query=7ISc7Jq47IucIOyEnOy0iOq1rCDqsJXrgqjrjIDroZwgNDU5&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0201785%2C0.0129844&tab=1&enc=b64" target="_blank"><img src="toz_location.png" width="270" height="270" alt="지도 크게 보기" title="지도 크게 보기" border="0" style="vertical-align:top;"/></a></td> </tr> <tr> <td>  <table cellpadding="0" cellspacing="0" width="100%">  <tr>  <td height="30" bgcolor="#f9f9f9" align="left" style="padding-left:9px; border-left:1px solid #cecece; border-bottom:1px solid #cecece;">   <span style="font-family: tahoma; font-size: 11px; color:#666;">2015.12.24</span>&nbsp;<span style="font-size: 11px; color:#e5e5e5;">|</span>&nbsp;<a style="font-family: dotum,sans-serif; font-size: 11px; color:#666; text-decoration: none; letter-spacing: -1px;" href="http://map.naver.com/?menu=location&mapMode=0&lat=37.5037278&lng=127.0246529&dlevel=12&searchCoord=127.0003336%3B37.4976118&query=7ISc7Jq47IucIOyEnOy0iOq1rCDqsJXrgqjrjIDroZwgNDU5&mpx=09650581%3A37.4976118%2C127.0003336%3AZ11%3A0.0201785%2C0.0129844&tab=1&enc=b64" target="_blank">지도 크게 보기</a>  </td>  <td width="98" bgcolor="#f9f9f9" align="right" style="text-align:right; padding-right:9px; border-right:1px solid #cecece; border-bottom:1px solid #cecece;">   <span style="float:right;"><span style="font-size:9px; font-family:Verdana, sans-serif; color:#444;">&copy;&nbsp;</span>&nbsp;<a style="font-family:tahoma; font-size:9px; font-weight:bold; color:#2db400; text-decoration:none;" href="http://www.nhncorp.com" target="_blank">NAVER Corp.</a></span>  </td>  </tr>  </table> </td> </tr>  </table>
+					</div>-->
+            <div class="col-sm-6">
+                <img class="img-responsive" src="http://rivervalley.uos.ac.kr/images/sub/sub03_01.gif" />
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">연락처 (문의 사항)</h2>
+        <p class="text-center"><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:kiise.sigoss@gmail.com">kiise.sigoss@gmail.com</a>
+        </p>
+    </div>
+    <footer class="container-fluid text-center">
+        <p>한국정보과학회 <a href="https://sigoss.github.io">오픈소스소프트웨어 연구회</a>
+        </p>
+    </footer>
+</body>
+<script src="hackathon2017/assets/js/main.js"></script>
+
+</html>
