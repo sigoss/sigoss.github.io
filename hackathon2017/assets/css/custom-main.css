@@ -7,7 +7,7 @@ button.btn.btn-lg.view-poster-btn.center-block:hover {
 }
 
 div#event1 {
-    padding-top: 0px;
+    padding-top: 41px;
 }
 
 .header-jumbotron{
@@ -198,4 +198,12 @@ p.list-group-item-text {
     background-color: #92c2de;
     color: #FFF;
     border: 0 ;
+}
+
+.datecol {
+    font-weight:bold;
+}
+
+.schedule-list thead {
+    font-weight:bold;
 }
