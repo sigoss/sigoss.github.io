@@ -23,7 +23,7 @@
                     <h4 class="modal-title">오픈핵 포스터</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="modal-poster" src="oss_hack_poster_0926.jpg">
+                        <img class="modal-poster" src="oss_hack_poster_0926.gif">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -44,7 +44,7 @@
             background-color: #7092BE;
             color: #ffffff;
             padding: 60px 50px;
-            background-image: url(oss_hack_poster_0926.jpg);
+            background-image: url(oss_hack_poster_0926.gif);
             background-size: cover;
             background-attachment: fixed;
             z-index: 0;
@@ -107,7 +107,7 @@
                 </div>
                 <div class="col-sm-12 center-block">
 					<div class="buttons-center-area">
-						<button data-toggle="modal" data-target="#myModal" class="btn btn-lg view-poster-btn center-block">포스터 보기</button>
+						<button id="load-poster" data-toggle="modal" data-target="#myModal" class="btn btn-lg view-poster-btn center-block">포스터 보기</button>
 						
 					</div>
 					
@@ -307,5 +307,18 @@
     </footer>
 </body>
 <script src="hackathon2017/assets/js/main.js"></script>
-
+<script>
+    
+    $(".content-overlay").css("height",$(window).height())
+    
+    function show() {
+        // alert("wefw")
+        $(".bg-overlay").css("background", "rgba(20, 20, 20, 0.62)");
+        $(".content-overlay").css("visibility","initial");   
+        $(".content-overlay").css('height','100%')
+        // $('.content-overlay').animate({"height","100%"}, "medium")
+    }
+    setTimeout(show, 600);
+    // 
+</script>
 </html>

@@ -31,8 +31,9 @@ cursor:default;
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(20, 20, 20, 0.62);
+    /* background: rgba(20, 20, 20, 0.62); */
     z-index: -9 /*Moved one position above the -10 */;
+    transition: 0.5s;
 }
 
 
@@ -207,3 +208,5 @@ p.list-group-item-text {
 .schedule-list thead {
     font-weight:bold;
 }
+
+.content-overlay {visibility: hidden;}
