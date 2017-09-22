@@ -1,0 +1,150 @@
+div.col-lg-3.col-md-3.col-sm-4.univ {
+  padding-left:7px;
+  padding-right:7px;
+  margin-bottom:10px;
+  /*margin-right:-1px;*/
+}
+
+h6 {
+  color:#f2b31c;
+}
+
+img#trophy {
+  margin-bottom:1%;
+  margin-right:2%;
+}
+
+.entry {
+  color:#313437;
+  background-color:#fff;
+}
+
+div.col-lg-5.col-sm-6.item {
+  height:800px;
+}
+
+img#gitlogo {
+  margin-top:-3.1%;
+  margin-left:-5%;
+}
+
+#homeicon {
+  margin-top:-2.5%;
+  margin-right:6%;
+  margin-left:-3%;
+}
+
+#youtube {
+  margin-top:-1.1%;
+  margin-right:5%;
+  margin-left:-2%;
+}
+
+#linkedin {
+  margin-top:-2.1%;
+  margin-right:5%;
+  margin-left:-2%;
+}
+
+.entry p {
+  color:#7d8285;
+}
+
+.entry h2 {
+  font-weight:bold;
+  margin-bottom:20px;
+  padding-top:50px;
+  color:#333;
+}
+
+p.enter {
+  margin-top:1%;
+}
+
+@media (max-width:767px) {
+  .entry h2 {
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px;
+    /*padding-bottom:24px;*/
+  }
+}
+
+#github {
+  font-variant:normal;
+}
+
+.entry .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto;
+}
+
+.entry .intro p {
+  margin-bottom:0;
+}
+
+.entry .projects {
+  padding-bottom:40px;
+}
+
+.entry .item {
+  text-align:center;
+  padding-top:50px;
+  min-height:425px;
+}
+
+.entry .item .name {
+  font-weight:bold;
+  margin-top:28px;
+  margin-bottom:8px;
+  color:inherit;
+}
+
+.entry .item .description {
+  font-size:15px;
+  margin-top:15px;
+  margin-bottom:0;
+}
+
+.btn-danger:hover {
+  background-color:#fbbd29;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  color:#ffffff;
+  background-color:#fbbd29;
+  border-color:rgba(0,0,0,0);
+}
+
+.btn-danger {
+  background-color:#fbbd29;
+  margin-top:15px;
+  font-variant:normal;
+}
+
+.col-md-3 {
+  padding:0 0 0 0;
+}
+
+#webpage {
+  margin-top:25px;
+  margin-right:10px;
+}
+
+#github {
+  margin-top:25px;
+}
+
+.btn-danger:active:hover, .btn-danger.active:hover, .open > .dropdown-toggle.btn-danger:hover, .btn-danger:active:focus, .btn-danger.active:focus, .open > .dropdown-toggle.btn-danger:focus, .btn-danger:active.focus, .btn-danger.active.focus, .open > .dropdown-toggle.btn-danger.focus {
+  color:#ffffff;
+  background-color:#dfa51a;
+  border-color:rgba(0,0,0,0);
+}
+
+.btn-danger:active, .btn-danger {
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-radius:25px;
+}
+
