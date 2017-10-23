@@ -103,6 +103,7 @@ p.enter {
 
 .entry .item .description {
   font-size:15px;
+  min-height:85px;
   margin-top:15px;
   margin-bottom:0;
 }
