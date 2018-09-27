@@ -1,0 +1,72 @@
+#second, #fourth {
+  text-align:left;
+}
+
+#first, #third {
+  text-align:right;
+}
+
+.hackaton {
+  color:white;
+  background-color:#dc2326;
+  /*vertical-align:middle;*/
+  text-align:center;
+  padding-top:35px;
+  padding-bottom:50px;
+}
+
+.hackaton p {
+  font-size:10.9pt;
+}
+
+p#link {
+  margin-top:-6px;
+}
+
+@media (max-width:767px) {
+  .hackaton a {
+    padding:30px 0;
+    color:white;
+  }
+}
+
+.univ {
+  text-align:center;
+  font-size:larger;
+  margin-bottom:0px;
+  color:#3163b8;
+}
+
+.host {
+  text-align:center;
+  font-size:larger;
+  padding-top:20px;
+  color:#3163b8;
+  margin-bottom:0px;
+  padding-bottom:1px;
+}
+
+.hackaton a:link, .hackaton a:visited, .hackaton a:active {
+  color:#f13d60;
+}
+
+.btn-danger {
+  text-transform:none;
+}
+
+body {
+  font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:13px;
+  line-height:1.846;
+  color:#666666;
+  background-color:white;
+}
+
+#second {
+  color:#444;
+}
+
+#logo {
+  margin-top:10px;
+}
+
