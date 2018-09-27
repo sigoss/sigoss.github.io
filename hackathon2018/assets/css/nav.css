@@ -1,0 +1,9 @@
+.navbar-inverse {
+  background-color:#fbbd29;
+  border-color:#fbbd29;
+}
+
+.navbar-inverse, .navbar-toggle {
+  color:#fff;
+}
+
