@@ -193,7 +193,7 @@
             "project": "프리더 : 이벤트 관리 및 추천 캘린더 앱",
             "description": "아직도 시사회 정보 찾아다니고 있니? 아직도 돈 없어서 문화생활을 못한다고 말하니?\n 자신이 원하는 날짜를 선택하면 그날짜에 열리는 각종 연극,영화,행사들과 이벤트를 한눈에 보여 드립니다!\n신★개★념 무료 이벤트.행사 관리 및 추천 캘린더 앱 프리더 입니다.",
             "youtube": "https://youtu.be/aYuXsNcyYTc",
-            "github": "https://github.com/openhack-freeder/freeder-crawler",
+            "github": "https://github.com/openhack-freeder/freeder-client",
             "img": "assets/img/thumbnail/team/20_free덤.jpg"
         },
         {
